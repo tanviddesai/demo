@@ -27,7 +27,7 @@ public class Test {
         new Employee(3, "Rohit", 4000));
 
     for (Employee employee : employees) {
-      if (employee.getSalary() > 3000) {
+      if (employee.getSalary() > 4000) {
         System.out.println(employee.getName());
       }
     }
